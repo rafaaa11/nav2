@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Expletus+Sans:ital,wght@1,500&display=swap");
+body {
+  margin: 0px;
+  font-family: "Expletus Sans", sans-serif;
+}
+.logo {
+  height: 50px;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: lightblue;
+  box-shadow: 7px 4px 38px -7px rgba(0, 0, 0, 0.75);
+}
+.right-nav {
+  justify-content: space-between;
+  display: flex;
+}
+.link-nav {
+  text-decoration: none;
+  padding: 10px;
+  color: #643864;
+  transition: 1s;
+  margin: 10px;
+}
+.link-nav:hover {
+  background-color: #643864;
+  color: white;
+  /* transform: scale(120%); */
+}
+.heroimage {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heroimage h1 {
+  position: absolute;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.heroimage img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+.welcome-container {
+  padding: 50px 125px;
+}
+
+.welcome-section {
+  display: flex;
+  justify-content: space-around;
+  background-color: #fdf0d1;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.welcome-section desc h2 {
+  font-size: 30px;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.sosmed a {
+  color: black;
+}
